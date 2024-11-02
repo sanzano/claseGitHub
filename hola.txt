@@ -1,1 +1,9 @@
 Hola soy Mariana
+
+git config --global user.name "Mariana Sanchez"
+git config --global user.email
+git config
+git init
+git add "hola.txt"
+git status //entra al staging
+git commit -m "Comentarios"
