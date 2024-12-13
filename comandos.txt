@@ -1,0 +1,30 @@
+git config --global user.name
+git config user.email
+git --version
+git init
+
+
+git add  //Coloca los archivos del working directory al área de preparación (staging area)
+
+git add "hola.txt"
+git add .
+git status //proporciona detalles sobre los cambios
+git commit -m "Comentarios"
+
+git log //te da el hash del cambio con commit)
+	//para salir " : Tecla w + tecla q)
+
+git reset (hash)
+git reset --hard (hash)
+git reset "mi_carpeta/" //ignora por una ocasion la carpeta seeccionada
+
+//Dentro del archivo .gitignore ponemos la carpeta que se quiere ignorar;
+imagenes/ 
+
+//Agregar a gitHub el repositotio local
+git remote add origin https://github.com/sanzano/claseGitHub.git
+git branch -M main //cambia el branch de Master a Main
+git push -u origin main //a veces es necesario autenticarse
+
+Para hacer la llave:
+Imagen de Perfil  - Settings - Developer settings - Personal acces tokens - Tokens (classic)
