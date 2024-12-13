@@ -7,3 +7,5 @@ git init
 git add "hola.txt"
 git status //entra al staging
 git commit -m "Comentarios"
+
+agregué cosas 12 dic
